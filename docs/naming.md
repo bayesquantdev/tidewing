@@ -136,6 +136,20 @@ gh search repos tidewing --limit 5
 whois tidewing.dev | head -5
 ```
 
-**本仓库实测（2026-11-11）**：PyPI `tidewing` 无已发布版本，可用；GitHub API 限流未精确核对，网络搜索未见同名仓库（仅发音相近的 tidings-rss，非撞名），建库时网页端再确认一次。商标与域名尚未检查。
+**本仓库实测（2026-11-11）**
+
+| 项 | 结果 |
+|---|---|
+| PyPI `tidewing` / `tidewing-ai` | 均无已发布版本，可用 |
+| npm `tidewing` / `tidewing-ai` | 均 404，未占用 |
+| GitHub 仓库同名 | 无。搜索仅命中 `ThomboOrg/tidewingdelivery`（子串命中，非同名） |
+| GitHub 用户名 `tidewing` | 404，未被占用（将来可建同名组织） |
+| 域名 `tidewing.com` | 已注册，2022-02-28 注册，到期 2028-02-28 |
+| 域名 `tidewing.ai` | 已注册，2026-08-28 注册；实测仅有一张 Contact 落地页，无产品内容 |
+| 域名 `tidewing.io` / `.org` | 未注册（RDAP 404） |
+| 域名 `tidewing.dev` | 未确认：注册局 RDAP 不可达，DNS 无解析，倾向未注册；真要注册时以注册商查询为准 |
+| 商标 | **未做专业检索**。公开检索未见同名项目，但存在近似在先名：`Tideways`（德国，PHP 性能监控）、`Tideworks`（美国，码头操作系统 SaaS）、`Tradewing`（社区平台）。三者与 Tidewing 差一到两个字母，若将来在第 9 / 42 类申请商标，存在近似驳回风险 |
+
+**结论**：作为开源文档项目使用 Tidewing 无障碍——同名仓库、用户名、包名全空。若将来要做产品并注册商标，须先做专业检索；届时备选顺序 `tidewing-ai` → Murmura → Skein 仍然有效（后两个未做本轮核查）。域名方面 `.com` 与 `.ai` 已被占，做官网需另选（`.io` / `.org` 可用）。
 
 若 `tidewing` 已被占用，备选顺序：`tidewing-ai`（仓库名）→ Murmura → Skein。

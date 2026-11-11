@@ -4,6 +4,12 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.5.2] - 2026-11-11
+
+### Changed
+
+- `docs/naming.md` 的可用性检查从一段散文补成实测表：PyPI / npm 包名、GitHub 仓库名与用户名、五个域名（`.com` `.ai` 已注册，`.io` `.org` 未注册，`.dev` 未确认）、商标（未做专业检索，但记录了三家 `tide-` 开头的近似在先名及驳回风险）。
+
 ## [0.5.1] - 2026-11-11
 
 ### Added
