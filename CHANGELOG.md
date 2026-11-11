@@ -4,6 +4,16 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.5.1] - 2026-11-11
+
+### Added
+
+- 复盘配图 `docs/assets/index-table.png`（1360×688）：还原资产索引 v2.8 的表格形态，标红两行编造的文件号。表内标识均为示意值，非真实 file_id。
+
+### Changed
+
+- 复盘文首插入配图。
+
 ## [0.5.0] - 2026-11-11
 
 ### Added
