@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 先读框架文档
+    url: https://github.com/bayesquantdev/tidewing/blob/main/docs/framework-v14-oss.md
+    about: 提 issue 前建议先过一遍五层结构，很多问题文中已有答案
+  - name: 命名由来
+    url: https://github.com/bayesquantdev/tidewing/blob/main/docs/naming.md
+    about: 项目名、模块名（Peng / Skein / Beiming / Fuyao）的含义与取舍过程
